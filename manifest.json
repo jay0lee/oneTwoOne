@@ -1,0 +1,21 @@
+{
+  "update_url": "https://onetwoone-lockdown.appspot.com/update.xml",
+  "manifest_version": 2,
+  "name": "oneTwoOne Lockdown",
+  "short_name": "oneTwoOne",
+  "description": "Prevents students from logging into other student Chromebooks.",
+  "version": "1.18",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+    },
+  "minimum_chrome_version": "66",
+  "permissions": [
+    "identity",
+    "identity.email",
+    "enterprise.deviceAttributes",
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking"
+    ]
+}
