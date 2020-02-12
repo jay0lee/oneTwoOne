@@ -93,7 +93,7 @@ chrome.runtime.onStartup.addListener(function() {
 })
 
 chrome.runtime.onInstalled.addListener(function() {
-  console.log('determine blcoking status on install.')
+  console.log('determine blocking status on install.')
   get_data(decide_if_blocking);
 })
 
